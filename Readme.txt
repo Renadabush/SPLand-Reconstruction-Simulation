@@ -2,22 +2,8 @@
 
 An object-oriented C++ simulation system for modeling post-war reconstruction plans across settlements. Built as Assignment #1 for the Systems Programming course (Fall 2024), under Lecturer Gil Einziger.
 
-**Authors:** Renad Abu Shareb & Adan Abo Salok
-
 The simulation manages multiple settlements, each with one or more reconstruction **plans**. Every plan follows a configurable **selection policy** that decides which facility (school, hospital, factory, park, etc.) to build next, balancing three core metrics: **Life Quality**, **Economy**, and **Sustainability**.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Project Structure](#project-structure)
-- [Building the Project](#building-the-project)
-- [Running the Simulation](#running-the-simulation)
-- [Configuration File Format](#configuration-file-format)
-- [Core Classes](#core-classes)
-- [Selection Policies](#selection-policies)
-- [Actions](#actions)
-- [Memory Management](#memory-management)
-- [Testing with Valgrind](#testing-with-valgrind)
 
 ## Overview
 
